@@ -1,3 +1,3 @@
 # dotfiles
 
-Config fils for dev environment.
+Config files for dev environment.
