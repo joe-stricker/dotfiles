@@ -7,9 +7,6 @@
   "[javascript]": {
     "editor.formatOnSave": false
   },
-  "eslint.alwaysShowStatus": true,
-  "eslint.autoFixOnSave": true,
-  "prettier.disableLanguages": ["js"],
   "explorer.confirmDragAndDrop": false,
   "explorer.openEditors.visible": 0,
   "editor.minimap.enabled": false,
@@ -59,5 +56,17 @@
   },
   "theme_switcher.dark_theme": "Saraiva Dark",
   "theme_switcher.light_theme": "Bluloco Light",
-  "workbench.colorTheme": "Saraiva Dark"
+  "workbench.colorTheme": "Saraiva Dark",
+  "explorer.confirmDelete": false,
+  "eslint.enable": true,
+  "eslint.autoFixOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "prettier.eslintIntegration": true,
+  "prettier.disableLanguages": ["js"]
 }
