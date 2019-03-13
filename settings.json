@@ -2,7 +2,7 @@
   "liveServer.settings.donotShowInfoMsg": true,
   "workbench.iconTheme": "vs-minimal",
   "workbench.startupEditor": "none",
-  "editor.formatOnPaste": true,
+  "editor.formatOnPaste": false,
   "editor.formatOnSave": true,
   "[javascript]": {
     "editor.formatOnSave": false
@@ -68,5 +68,5 @@
     "typescriptreact"
   ],
   "prettier.eslintIntegration": true,
-  "prettier.disableLanguages": ["js"]
+  "prettier.disableLanguages": ["js", "ts"]
 }
