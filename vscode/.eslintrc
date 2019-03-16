@@ -15,6 +15,34 @@
     "prettier/@typescript-eslint"
   ],
   "rules": {
-    "indent": ["error", 4]
+    "no-console": 0,
+    "indent": ["error", 4],
+    "func-names": 0,
+    "lines-between-class-members": [
+      1,
+      "always",
+      { "exceptAfterSingleLine": true }
+    ],
+    "quotes": [
+      2,
+      "single",
+      {
+        "avoidEscape": true,
+        "allowTemplateLiterals": true
+      }
+    ],
+    "no-unused-vars": [
+      1,
+      {
+        "ignoreSiblings": true,
+        "argsIgnorePattern": "res|next|^err"
+      }
+    ],
+    "prefer-const": [
+      "error",
+      {
+        "destructuring": "all"
+      }
+    ]
   }
 }
