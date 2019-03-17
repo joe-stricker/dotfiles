@@ -1,6 +1,5 @@
 {
   "liveServer.settings.donotShowInfoMsg": true,
-  "workbench.iconTheme": "vs-minimal",
   "workbench.startupEditor": "none",
   "editor.formatOnPaste": false,
   "editor.formatOnSave": true,
@@ -14,7 +13,7 @@
   "editor.codeLens": false,
   "editor.matchBrackets": false,
   "editor.renderLineHighlight": "none",
-  "editor.lineNumbers": "off",
+  "editor.lineNumbers": "on",
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.cursorBlinking": "smooth",
   "editor.cursorStyle": "line-thin",
@@ -68,5 +67,7 @@
     "typescriptreact"
   ],
   "prettier.eslintIntegration": true,
-  "prettier.disableLanguages": ["js", "ts"]
+  "prettier.disableLanguages": ["js", "ts"],
+  "editor.snippetSuggestions": "top",
+  "editor.suggest.snippetsPreventQuickSuggestions": false
 }
