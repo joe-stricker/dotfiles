@@ -2,7 +2,7 @@
 
 Config files for dev environment.
 
-## Packages required for ESLint and TypeScript in VSCode
+### Packages required for ESLint and TypeScript in VSCode
 
 - eslint
 - typescript
