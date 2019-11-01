@@ -1,5 +1,4 @@
 {
-    "liveServer.settings.donotShowInfoMsg": true,
     "workbench.startupEditor": "none",
     "editor.formatOnPaste": false,
     "editor.formatOnSave": true,
@@ -60,19 +59,25 @@
         "terminal.ansiWhite": "#A39E9B",
         "terminal.ansiYellow": "#FEC418"
     },
-    "theme_switcher.dark_theme": "Saraiva Dark",
-    "theme_switcher.light_theme": "Bluloco Light",
     "explorer.confirmDelete": false,
     "eslint.enable": false,
     "eslint.autoFixOnSave": true,
     "eslint.alwaysShowStatus": true,
-    "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
-    "prettier.disableLanguages": ["js", "ts", "elm"],
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact"
+    ],
+    "prettier.disableLanguages": [
+        "js",
+        "ts",
+        "elm"
+    ],
     "editor.snippetSuggestions": "top",
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "workbench.iconTheme": "material-icon-theme",
     "window.zoomLevel": 0,
-    "liveServer.settings.donotVerifyTags": true,
     "prettier.printWidth": 120,
     "prettier.tabWidth": 4,
     "prettier.singleQuote": true,
