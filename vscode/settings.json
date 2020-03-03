@@ -1,19 +1,12 @@
 {
   "workbench.startupEditor": "none",
-  "editor.formatOnPaste": false,
-  "[javascript]": {
-    "editor.formatOnSave": false
-  },
-  "[elm]": {
-    "editor.formatOnSave": true,
-    "editor.formatOnSaveTimeout": 1500
-  },
   "explorer.confirmDragAndDrop": false,
   "explorer.openEditors.visible": 0,
-  "editor.tabSize": 4,
+  "editor.formatOnPaste": false,
+  "editor.tabSize": 2,
   "editor.minimap.enabled": false,
   "editor.renderIndentGuides": false,
-  "editor.matchBrackets": false,
+  "editor.matchBrackets": "near",
   "editor.renderLineHighlight": "none",
   "editor.lineNumbers": "on",
   "editor.multiCursorModifier": "ctrlCmd",
@@ -33,9 +26,9 @@
   "terminal.integrated.cursorBlinking": false,
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.shell.windows": "pwsh.exe",
-  "terminal.integrated.shellArgs.windows": ["-nol"],
-  "terminal.integrated.fontSize": 14,
-  "terminal.integrated.lineHeight": 1,
+  "terminal.integrated.shellArgs.windows": [
+    "-nol"
+  ],
   "workbench.colorCustomizations": {
     "terminalCursor.backgrou    nd": "#A39E9B",
     "terminalCursor.foreground": "#A39E9B",
@@ -57,8 +50,7 @@
     "terminal.ansiYellow": "#FEC418"
   },
   "explorer.confirmDelete": false,
-  "eslint.enable": false,
-  "eslint.autoFixOnSave": true,
+  "eslint.enable": true,
   "eslint.alwaysShowStatus": true,
   "eslint.validate": [
     "javascript",
@@ -66,14 +58,12 @@
     "typescript",
     "typescriptreact"
   ],
-  "prettier.disableLanguages": ["js", "ts", "elm"],
   "editor.snippetSuggestions": "top",
   "editor.suggest.snippetsPreventQuickSuggestions": false,
   "workbench.iconTheme": "material-icon-theme",
   "window.zoomLevel": 0,
   "editor.acceptSuggestionOnEnter": "off",
-  "elmLS.elmAnalyseTrigger": "save",
-  "editor.fontFamily": "Cascadia Mono PL Regular",
+  "editor.fontFamily": "Jetbrains Mono",
   "problems.decorations.enabled": false,
   "problems.autoReveal": false,
   "breadcrumbs.enabled": false,
@@ -82,17 +72,44 @@
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
-  "editor.formatOnSaveTimeout": 700,
-  "[fsharp]": {
-    "editor.defaultFormatter": "Ionide.Ionide-fsharp"
-  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
-  "FSharp.lineLens.enabled": "never",
-  "FSharp.msbuildHost": ".net core",
-  "FSharp.linter": true,
-  "FSharp.UseSdkScripts": true,
-  "FSharp.resolveNamespaces": true,
-  "editor.fontSize": 14,
   "debug.console.fontSize": 14,
-  "extensions.ignoreRecommendations": false
+  "extensions.ignoreRecommendations": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "prettier.disableLanguages": [
+    "elm"
+  ],
+  "prettier.trailingComma": "es5",
+  "prettier.tabWidth": 2,
+  "npm.scriptExplorerAction": "run",
+  "editor.codeLens": false,
+  "[typescript]": {},
+  "terminal.integrated.fontFamily": "Jetbrains Mono",
+  "calva.prettyPrintingOptions": {
+    "enabled": true,
+    "printEngine": "pprint",
+    "width": 80
+  },
+  "calva.openREPLWindowOnConnect": false,
+  "calva.paredit.defaultKeyMap": "strict",
+  "calva.highlight.enableBracketColors": true,
+  "editor.tokenColorCustomizations": {
+    "[Super one dark]": {
+      "textMateRules": [
+        {
+          "scope": [
+            "constant.keyword.clojure"
+          ],
+          "settings": {
+            "foreground": "#9cdcfeff"
+          }
+        }
+      ]
+    },
+  },
+  "workbench.colorTheme": "Super One Dark",
+  "terminal.integrated.fontWeightBold": "normal"
 }
