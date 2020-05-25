@@ -1,0 +1,131 @@
+{
+  "breadcrumbs.enabled": false,
+  "editor.minimap.enabled": false,
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.smoothScrolling": false,
+  "editor.renderIndentGuides": false,
+  "editor.folding": false,
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "window.zoomLevel": 0,
+  "extensions.ignoreRecommendations": false,
+  "terminal.integrated.cursorStyle": "underline",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.shell.windows": "pwsh.exe",
+  "terminal.integrated.shellArgs.windows": [
+    "-nol"
+  ],
+  "editor.detectIndentation": false,
+  "editor.codeLens": false,
+  "editor.semanticHighlighting.enabled": true,
+  "editor.tokenColorCustomizations": {
+    "[Default Dark+]": {
+      "textMateRules": [
+        {
+          "scope": [
+            "support.module.elm"
+          ],
+          "settings": {
+            "foreground": "#DCDCAA"
+          }
+        },
+        {
+          "scope": [
+            "storage.type.elm",
+            "constant.unit.elm",
+            "keyword.unused.elm"
+          ],
+          "settings": {
+            "foreground": "#4EC9B0"
+          }
+        },
+        {
+          "scope": [
+            "punctuation.definition.string.begin.elm",
+            "punctuation.definition.string.end.elm"
+          ],
+          "settings": {
+            "foreground": "#CE9178"
+          }
+        },
+        {
+          "scope": [
+            "keyword",
+            "keyword.operator",
+            "keyword.control.import.elm",
+            "punctuation.parens.elm",
+            "punctuation.separator",
+            "punctuation.bracket.elm",
+            "punctuation.section.braces.begin",
+            "punctuation.section.braces.end",
+            "punctuation.definition.list.elm"
+          ],
+          "settings": {
+            "foreground": "#569CD6"
+          }
+        },
+        {
+          "scope": [
+            "keyword.control.elm"
+          ],
+          "settings": {
+            "foreground": "#C586C0"
+          }
+        },
+        {
+          "scope": [
+            "entity.name.function.elm",
+            "entity.name.function.top_level.elm"
+          ],
+          "settings": {
+            "foreground": "#9CDCFE"
+          }
+        },
+        {
+          "scope": [
+            "keyword.other.period.elm"
+          ],
+          "settings": {
+            "foreground": "#ffffff"
+          }
+        },
+        {
+          "scope": [
+            "record.name.elm"
+          ],
+          "settings": {
+            "foreground": "#4EC9B0"
+          }
+        },
+        {
+          "scope": [
+            "constant.type-constructor.elm",
+            "entity.name.record.field.accessor.elm",
+            "entity.name.record.field.elm"
+          ],
+          "settings": {
+            "foreground": "#9CDCFE"
+          }
+        },
+        {
+          "scope": [
+            "comment.line.double-dash.elm",
+            "comment.block.elm"
+          ],
+          "settings": {
+            "foreground": "#646464",
+            "fontStyle": "italic"
+          }
+        }
+      ]
+    }
+  }
+}
+/* Dark+ Colors
+  Light green:  4EC9B0
+  Dark blue:    569CD6
+  Light blue:   9CDCFE
+  Dark orange:  CE9178
+  Light yellow: DCDCAA
+  Magenta:      C586C0
+*/
