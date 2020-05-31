@@ -1,6 +1,7 @@
+Set-Prompt
 Import-Module posh-git
 Import-Module oh-my-posh
-Set-Theme Paradox
+Set-Theme js
 
 Function gohome {
     Set-Location -Path ~
