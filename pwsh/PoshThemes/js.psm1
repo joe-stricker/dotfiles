@@ -34,9 +34,9 @@ function Write-Theme {
         $info = $vcsInfo.VcInfo
         $prompt += Write-Prompt -Object " $info" -ForegroundColor $vcsInfo.BackgroundColor
 
-        # if ($status.Working.Length -gt 0) {
-        #     $prompt += Write-Prompt -Object (" " + $sl.PromptSymbols.GitDirtyIndicator) -ForegroundColor $sl.Colors.GitDefaultColor
-        # }
+        if ($status.Working.Length -gt 0) {
+            $prompt += Write-Prompt -Object (" " + $sl.PromptSymbols.GitDirtyIndicator) -ForegroundColor $sl.Colors.GitDefaultColor
+        }
     }
     
     $prompt += ' '
@@ -50,9 +50,3 @@ $sl.Colors.PromptHighlightColor = [ConsoleColor]::Blue
 $sl.Colors.DriveForegroundColor = [ConsoleColor]::Cyan
 $sl.Colors.WithForegroundColor = [ConsoleColor]::Red
 $sl.PromptSymbols.GitDirtyIndicator = [char]::ConvertFromUtf32(10007)
-$sl.Colors.GitDefaultColor = [ConsoleColor]::Yellow
-
-#$sl.Colors.GitLocalChangesColor
-#$sl.Colors.GitNoLocalChangesAndAheadAndBehindColor
-#$sl.Colors.GitNoLocalChangesAndAheadColor
-#$sl.Colors.GitNoLocalChangesAndBehindColor
