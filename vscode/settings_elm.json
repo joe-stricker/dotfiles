@@ -7,6 +7,9 @@
   "editor.folding": false,
   "editor.formatOnSave": true,
   "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.codeLens": false,
+  "editor.semanticHighlighting.enabled": true,
   "window.zoomLevel": 0,
   "extensions.ignoreRecommendations": false,
   "terminal.integrated.cursorStyle": "underline",
@@ -15,9 +18,6 @@
   "terminal.integrated.shellArgs.windows": [
     "-nol"
   ],
-  "editor.detectIndentation": false,
-  "editor.codeLens": false,
-  "editor.semanticHighlighting.enabled": true,
   "editor.tokenColorCustomizations": {
     "[Default Dark+]": {
       "textMateRules": [
@@ -119,13 +119,15 @@
         }
       ]
     }
-  }
+  },
+  "workbench.activityBar.visible": false,
+  "workbench.sideBar.location": "left",
+  "editor.renderWhitespace": "none",
+  "editor.renderControlCharacters": false,
+  "timeline.excludeSources": [
+    "git-history"
+  ],
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "explorer.confirmDragAndDrop": false,
+  "window.menuBarVisibility": "default"
 }
-/* Dark+ Colors
-  Light green:  4EC9B0
-  Dark blue:    569CD6
-  Light blue:   9CDCFE
-  Dark orange:  CE9178
-  Light yellow: DCDCAA
-  Magenta:      C586C0
-*/
