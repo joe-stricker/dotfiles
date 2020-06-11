@@ -120,7 +120,7 @@
       ]
     }
   },
-  "workbench.activityBar.visible": false,
+  "workbench.activityBar.visible": true,
   "workbench.sideBar.location": "left",
   "editor.renderWhitespace": "none",
   "editor.renderControlCharacters": false,
@@ -131,3 +131,11 @@
   "explorer.confirmDragAndDrop": false,
   "window.menuBarVisibility": "default"
 }
+/* Dark+ Colors
+  Light green:  4EC9B0
+  Dark blue:    569CD6
+  Light blue:   9CDCFE
+  Dark orange:  CE9178
+  Light yellow: DCDCAA
+  Magenta:      C586C0
+*/

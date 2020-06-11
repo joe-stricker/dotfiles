@@ -34,9 +34,9 @@ function Write-Theme {
         $info = $vcsInfo.VcInfo
         $prompt += Write-Prompt -Object " $info" -ForegroundColor $vcsInfo.BackgroundColor
 
-        if ($status.Working.Length -gt 0) {
-            $prompt += Write-Prompt -Object (" " + $sl.PromptSymbols.GitDirtyIndicator) -ForegroundColor $sl.Colors.GitDefaultColor
-        }
+         if ($status.Working.Length -gt 0) {
+             $prompt += Write-Prompt -Object (" " + $sl.PromptSymbols.GitDirtyIndicator) -ForegroundColor $sl.Colors.GitDefaultColor
+         }
     }
     
     $prompt += ' '
