@@ -10,6 +10,7 @@
   "editor.detectIndentation": false,
   "editor.codeLens": false,
   "editor.semanticHighlighting.enabled": true,
+  "editor.acceptSuggestionOnEnter": "off",
   "window.zoomLevel": 0,
   "extensions.ignoreRecommendations": false,
   "terminal.integrated.cursorStyle": "underline",
